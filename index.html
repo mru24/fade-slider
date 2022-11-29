@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-header">
+    <div class="slider">
+      <div class="slide">
+        <div class="slide-content">
+          <div class="slide-image image" style="background-image:url('images/1.jpg')"></div>
+          <div class="slide-text">
+            <div class="container">
+              <h1>Header slider</h1>
+              <p class="lead">Fade in / out header slider</p>
+              <a class="orangebtn" href="/">
+                Slide 1
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="slide hidden">
+        <div class="slide-content">
+          <div class="slide-image image" style="background-image:url('images/2.jpg')"></div>
+          <div class="slide-text">
+            <div class="container">
+              <h1>Another slide</h1>
+              <p class="lead">jQuery header slider</p>
+              <a class="orangebtn" href="/">
+                Slide 2
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+      <div class="slider-dots">
+        <ul>
+          <li class="slider-dot active" data-index="0"></li>
+          <li class="slider-dot" data-index="1"></li>
+        </ul>
+      </div>
+  </div>
+
+  <script src="assets/jquery-3.6.1.min.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
